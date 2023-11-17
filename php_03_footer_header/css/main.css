@@ -1,0 +1,166 @@
+/* Reset some default styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the body */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+}
+
+/* Style the container div */
+div {
+    width: 90%;
+    margin: 2em auto;
+}
+
+/* Style the form */
+form {
+    background-color: #ddd;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+/* Style the legend */
+legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+/* Style labels */
+label {
+    display: block;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Style text inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-left: -10px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #333;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style error messages */
+ol {
+    padding: 10px 10px 10px 30px;
+    border-radius: 5px;
+    background-color: #f88;
+    width: 300px;
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+ol li {
+    margin: 5px 0;
+    color: #800000;
+}
+
+/* Style the anchor tags */
+a {
+    color: #4CAF50;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.pure-button {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a.pure-button-active {
+    background-color: grey;
+}
+
+/* Style labels */
+label {
+    color: #333;
+    display: block;
+}
+
+/* Style text inputs */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #ccc;
+    color: #333;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style error messages */
+ol {
+    text-align: center;
+    padding: 10px 10px 10px 30px;
+    border-radius: 5px;
+    background-color: #f88;
+    width: 300px;
+    list-style-type: none;
+    margin: 10px auto;
+}
+
+ol li {
+    margin: 5px 0;
+    color: #800000;
+}
+
+/* Style the result div */
+div.result {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    margin: 10px auto;
+}
+
+.header, .footer , .content{
+    margin: 1em auto;
+    border: 0.01em solid #aaaaaa;
+    border-radius: 1em;
+    padding: 1em;
+    background: #333;
+    box-shadow: 0.2em 0.2em 0.4em grey;
+    color: white; 
+}
+
+.header, .footer{ 
+    text-align: center;
+}
